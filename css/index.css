@@ -739,6 +739,31 @@ body.docs #nav {
   max-height: 80px;
   margin-right: 20px;
 }
+#one-time-donations a,
+#one-time-donations svg {
+  display: inline-block;
+  vertical-align: middle;
+}
+#one-time-donations a {
+  margin: 20px;
+  color: #34495e;
+}
+#one-time-donations svg {
+  margin-right: 5px;
+}
+#coin-details {
+  text-align: center;
+  border-radius: 4px;
+  padding: 30px;
+  font-weight: bold;
+}
+#coin-details img {
+  width: 200px;
+}
+#coin-details p {
+  padding: 0;
+  margin: 0 0 20px;
+}
 .modal {
   box-sizing: border-box;
   display: none;
